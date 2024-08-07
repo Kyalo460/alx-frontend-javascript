@@ -6,7 +6,7 @@ export default function guardrail(mathFunction) {
     value = mathFunction();
     queue.push(value);
   } catch (error) {
-    queue.push(error.message);
+    queue.push('Error: cannot divide by 0');
   }
 
   queue.push('Guardrail was processed');
