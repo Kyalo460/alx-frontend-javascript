@@ -1,4 +1,4 @@
-import ClassRoom from "./0-classroom";
+import ClassRoom from './0-classroom';
 
 export default function initializeRooms() {
   const object1 = new ClassRoom(19);
@@ -6,5 +6,4 @@ export default function initializeRooms() {
   const object3 = new ClassRoom(34);
 
   return [object1, object2, object3];
-
 }
