@@ -7,7 +7,6 @@ export default class EVCar extends Car {
   }
 
   cloneCar() {
-
     this._brand = undefined;
     this._motor = undefined;
     this._color = undefined;
